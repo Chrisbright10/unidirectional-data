@@ -1,0 +1,30 @@
+div.flex-container {
+  display: flex;
+  flex-flow: row;
+  height: 100%;
+  min-width: 100%;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+app-primary {
+  order: 1;
+  flex: 1 1 50%;
+  align-self: auto;
+  background-color: grey;
+  height: 100%;
+  outline: 1px solid black;
+
+}
+
+app-secondary {
+  order: 2;
+  flex: 1 1 50%;
+  align-self: auto;
+  background-color: grey;
+  height: 100%;
+  outline: 1px solid black;
+
+}

@@ -1,0 +1,9 @@
+<div>
+  <h3>Secondary Component</h3>
+</div>
+<input type="text" [(ngModel)]="inputText" placeholder="Enter new word"/>
+<button class="primary-btn" (click)="addWord(inputText)">Submit</button>
+<!--<button class="primary-btn" (click)="addPrivateWord(inputText)">Submit Private</button>-->
+<ul>
+  <li *ngFor="let word of words">{{word}}</li>
+</ul>
